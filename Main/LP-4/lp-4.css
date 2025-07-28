@@ -1,0 +1,93 @@
+:root {
+  --c1: #FF6B6B;
+  --c2: #FFA94D;
+  --c3: #FFD43B;
+  --c4: #69DB7C;
+  --c5: #38D9A9;
+  --c6: #4DABF7;
+  --c7: #5C7CFA;
+  --c8: #9775FA;
+  --c9: #F783AC;
+  --c10: #CED4DA;
+}
+@font-face {
+  font-family: 'geo';
+  src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.lp-4rightC > button{
+    width: 80px;
+    height: 30px;
+    background-color: #252525;
+    border-radius: 10px;
+    color: white;
+    font-size: 9px;
+    margin-top: 8px;
+    font-family: geo;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lp-4container{
+    margin-left: 10%;
+    margin-top: 2.5vh;
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lp-4up{
+width: 85%;
+height: 20%;
+}
+.lp-4c{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: row;
+}
+.lp-4leftC{
+display: flex;
+align-items: center;
+font-family: geo;
+width: 50%;
+height: 100%;
+font-size: 88px;
+}
+.lp-4rightC{
+width: 50%;
+height: 100%;
+padding-top: 45px;
+justify-content: center;
+
+display: flex;
+flex-direction: column;
+}
+.lp-4rightC > p{
+    width: 350px;
+    font-family: geo;
+    color: #252525a8;
+}
+.lp-4img{
+    margin-top: 25px;
+width: 85%;
+height: 80%;
+}
+.lp-4img > img{
+    width: 100%;
+    height: 100%;
+}
