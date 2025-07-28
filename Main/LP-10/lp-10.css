@@ -1,0 +1,178 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+  *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    }
+.lp-10_main{
+width: 100%;
+height: 100vh;
+background: linear-gradient(70deg, #C8CCCF, #97A3A3);
+}
+.lp-10_up{
+width: 100%;
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lp-10_info{
+width: 80%;
+height: 300px;
+position: relative;
+padding-left: 13%;
+z-index: 5;
+font-family: geo;
+color: #363830;
+}
+
+.lp-10_info > h1{
+    position: relative;
+font-size: 78px;
+z-index: 2;
+margin-bottom: 15px;
+}
+.lp-10_info > p{
+    position: relative;
+font-size: 22px;
+width: 500px;
+z-index: 2;
+margin-bottom: 25px;
+}
+.lp-10_info > button{
+width: 100px;
+height: 44px;
+border-radius: 20px;
+background-color: #363830;
+color: white;
+}
+.lp-10_info > img{
+position: absolute;
+right: 0px;
+bottom: -120px;
+z-index: 1;
+}
+
+
+
+.lp-10_down{
+width: 100%;
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lp-10_bar{
+display: flex;
+align-items: center;
+align-items: center;
+position: relative;
+width: 80%;
+height: 100%;
+
+}
+
+.lp-10_bar > img{
+width: 500px;
+position: absolute;
+left: 0px;
+bottom: 0px;
+z-index: 1;
+}
+
+.lp-10_containerbar{
+position: absolute;
+z-index: 2;
+width: 75%;
+height: 280px;
+border-radius: 200px;
+background-color: rgba(255, 255, 255, 0.39);
+right: 0px;
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+}
+
+.lp-10_itemss{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp-10_item1{
+    padding-top: 3%;
+width: 33%;
+height: 80%;
+}
+.lp-10_item1 > h1{
+    font-size: 25px;
+}
+.lp-10_item1 > p{
+    width: 200px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.lp-10_item2{
+    padding-top: 3%;
+width: 33%;
+height: 80%;
+
+}
+.lp-10_item2 > h1{
+    font-size: 25px;
+}
+.lp-10_item2 > p{
+    width: 200px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.lp-10_item3{
+    padding-top: 3%;
+width: 33%;
+height: 80%;
+
+}
+.lp-10_item3 > h1{
+    font-size: 25px;
+}
+.lp-10_item3 > p{
+    width: 200px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.line{
+    margin-top: 15px;
+    display:block;
+    width:15%; /*or whatever width you want the effect of <hr>*/
+    border: 2px solid #000000
+}
