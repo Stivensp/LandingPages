@@ -21,7 +21,7 @@ font-family: geo;
     src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 button {
     background: none;
     border: none;
@@ -130,7 +130,7 @@ justify-content: center;
 }
 
 .lp-10_item1{
-    padding-top: 3%;
+    padding-top: 1%;
 width: 33%;
 height: 80%;
 }
@@ -143,7 +143,7 @@ height: 80%;
     margin-top: 15px;
 }
 .lp-10_item2{
-    padding-top: 3%;
+    padding-top: 1%;
 width: 33%;
 height: 80%;
 
@@ -157,7 +157,7 @@ height: 80%;
     margin-top: 15px;
 }
 .lp-10_item3{
-    padding-top: 3%;
+    padding-top: 1%;
 width: 33%;
 height: 80%;
 

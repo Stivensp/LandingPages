@@ -1,0 +1,135 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp-12_main{
+width: 80%;
+margin-left: 10%;
+height: 90vh;
+margin-top: 5vh;
+display: flex;
+flex-direction: column;
+}
+.lp-12_up{
+width: 100%;
+height: 65%;
+display: flex;
+flex-direction: row;
+
+}
+
+.lp-12_left{
+width: 50%;
+height: 100%;
+display: flex;
+padding-top: 7%;
+flex-direction: column;
+padding-left: 7%;
+}
+.lp-12_left > :first-child{
+    font-size: 65px;
+    width: 500px;
+}
+.lp-12_left > :nth-child(2){
+    margin-top: 15px;
+    font-size: 24px;
+    width: 450px;
+    margin-bottom: 25px;
+}
+.lp-12_left > :nth-child(3){
+background-color: var(--c6);
+width: 120px;
+height: 45px;
+border-radius: 25px;
+background-color: #252525;
+color: white;
+}
+
+.lp-12_right{
+width: 50%;
+height: 100%;
+
+position: relative;
+}
+
+.lp-12_right > :nth-child(1){
+position: absolute;
+left: 10%;
+top: 10%;
+}
+.lp-12_right > :nth-child(2){
+position: absolute;
+left: 45%;
+top: 25%;
+}
+
+/**/
+.lp-12_down{
+width: 100%;
+height: 35%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lp-12_dContainer{
+    border-radius: 38px;
+width: 87%;
+height: 90%;
+background-color: #252525;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.lp-12_dContainer div{
+    height: 70%;
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.lp-12_dContainer h1{
+   margin-top: 9px;
+   font-size: 22px;
+}
+.lp-12_dContainer p{
+margin-top: 20px;
+font-size: 20px; 
+}
+.lp-12_dContainer img{
+width: 25px; 
+}

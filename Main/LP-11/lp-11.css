@@ -1,0 +1,180 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #2F2F2F;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    }
+.lp-11leftC > button{
+width: 100px;
+height: 44px;
+border-radius: 20px;
+background-color: #ffffff;
+color: black;
+}
+
+.lp-11main{
+width: 80%;
+margin-left: 10%;
+height: 90vh;
+margin-top: 5vh;
+flex-direction: row;
+display: flex;
+}
+.lp-11left{
+width: 50%;
+height: 100%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lp-11leftC{
+    width: 50%;
+    height: 60%;
+
+}
+.lp-11leftC > :first-child{
+font-size: 75px;
+margin-bottom: 15px;
+color: pink;
+}
+.lp-11leftC > :nth-child(2){
+font-size: 75px;
+margin-bottom: 15px;
+color: #9AD7F3;
+}
+.lp-11leftC > :nth-child(3){
+font-size: 75px;
+margin-bottom: 15px;
+color: #6BDFDA;
+}
+.lp-11leftC > p{
+font-size: 24px;
+margin-bottom: 25px;
+color: white;
+}
+.lp-11leftC > button{
+
+}
+
+
+/**/
+.lp-11right{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.lp-11rightallC{
+width: 90%;
+height: 90%;
+}
+.lp-11c1{
+width: 100%;
+height: 25%;
+display: flex;
+flex-direction: row;
+gap: 2%;
+justify-content: center;
+align-items: center;
+}
+.lp-11c1 img{
+width: 100%;
+height: 100%;
+}
+.lp-11c1 > div{
+width: 23%;
+height: 90%;
+border-radius: 10px;
+}
+/**/
+
+/**/
+.lp-11c2{
+width: 100%;
+height: 25%;
+display: flex;
+flex-direction: row;
+gap: 2%;
+justify-content: center;
+align-items: center;
+}
+.lp-11c2 img{
+width: 100%;
+height: 100%;
+}
+.lp-11c2 > div{
+width: 23%;
+height: 90%;
+border-radius: 10px;
+}
+
+.lp-11c3{
+width: 100%;
+height: 25%;
+display: flex;
+flex-direction: row;
+gap: 2%;
+justify-content: center;
+align-items: center;
+}
+.lp-11c3 img{
+width: 100%;
+height: 100%;
+}
+.lp-11c3 > div{
+width: 23%;
+height: 90%;
+
+border-radius: 10px;
+}
+.lp-11c4{
+width: 100%;
+height: 25%;
+display: flex;
+flex-direction: row;
+gap: 2%;
+justify-content: center;
+align-items: center;
+}
+.lp-11c4 img{
+width: 100%;
+height: 100%;
+}
+.lp-11c4 > div{
+width: 23%;
+height: 90%;
+
+border-radius: 10px;
+}
