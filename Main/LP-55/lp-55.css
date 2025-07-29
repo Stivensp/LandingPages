@@ -1,0 +1,157 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+background-color: #F4F2F3;   
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+/**/
+.lp-55_main{
+width: 100%;
+
+height: 100vh;
+display: flex;
+flex-direction: row;
+position: relative;
+object-fit: fill;
+overflow: hidden;
+}
+
+.lp-55_main > img{
+width: 100%;
+height: 120%;
+position: absolute;
+top: -10%;
+}
+
+
+.lp-55_left{
+width: 50%;
+height: 100%;
+
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.lp-55_sectionleft{
+width: 80%;
+height: 75%;
+padding: 9%;
+padding-top: 17%;
+
+}
+
+.lp-55_sectionleft > :nth-child(1){
+font-size: 60px;
+margin-bottom: 45px;
+width: 280px;
+}
+.lp-55_sectionleft > :nth-child(2){
+    width: 320px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.lp-55_sectionleft > :nth-child(3){
+    width: 120px;
+    height: 45px;
+    background-color: #252525;
+    border-radius: 25px;
+    color: white;
+    font-size: 12px;
+}
+
+.lp-55_right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lp-rightC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 80%;
+height: 90%;
+
+display: flex;
+align-items: flex-end;
+flex-direction: column;
+}
+
+.lp-55_right_i1{
+width: 70%;
+height: 50%;
+color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+position: relative;
+}
+.lp-55_right_i1 > :nth-child(1){
+    position: absolute;
+    font-size: 28px;
+    top: 50px;
+    left: 25px;
+}
+.lp-55_right_i1 > :nth-child(3){
+    margin-top: 25px;
+    width: 300px;
+}
+.lp-55_right_i2{
+position: relative;
+width: 70%;
+height: 50%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.lp-55_right_i2 > :nth-child(1){
+    position: absolute;
+    font-size: 28px;
+    top: 50px;
+    left: 25px;
+}
+.lp-55_right_i2 > :nth-child(3){
+    margin-top: 25px;
+    width: 300px;
+}

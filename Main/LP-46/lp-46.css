@@ -1,0 +1,82 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+background-color: #F4F2F3;   
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp46_main{
+width: 73%;
+margin-left: 15%;
+height: 90vh;
+margin-bottom: 10vh;
+background-color: #F6F6F6;
+position: relative;
+}
+.lp46_main > :nth-child(1){
+    width: 100%;
+}
+
+.lp46-contenedor{
+width: 650px;
+height: 320px;
+display: flex;
+position: absolute;
+top: 0px;
+display: flex;
+flex-direction: column;
+top: 25%;
+left: 25%;
+justify-content: center;
+align-items: center;
+padding: 3%;
+text-align: center;
+}
+.lp46-contenedor > :nth-child(1){
+font-size: 64px;
+}
+.lp46-contenedor > :nth-child(2){
+    margin-top: 25px;
+    width: 400px;
+}
+.lp46-contenedor > :nth-child(3){
+    display: block;
+    margin-top: 35px;
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    background-color: #252525;
+    border-radius: 25px;  
+    color: white;
+    font-size: 12px; 
+}
