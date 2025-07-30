@@ -1,0 +1,137 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+background-color: #F2F2F2;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp-20_main{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.lp-20_up{
+width: 100%;
+height: 70%;
+
+display: flex;
+flex-direction: row;
+}
+
+.lp-20_left{
+width: 50%;
+height: 100%;
+padding: 10%;
+padding-left: 20%;
+}
+
+.lp-20_left > :nth-child(1){
+    font-size: 54px;
+    margin-bottom: 25px;
+    width: 350px;
+}
+.lp-20_left > :nth-child(2){
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.lp-20_left > :nth-child(3){
+width: 150px;
+height: 50px;
+border-radius: 25px;
+background-color: #252525;
+font-size: 11px;
+color: white;
+}
+
+.lp-20_right{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.lp-20_right img{
+width: 60%;
+}
+
+.lp-20_down{
+position: absolute;
+width: 100%;
+height: 30%;
+background-color: white;
+display: flex;
+left: 0px;
+justify-content: flex-end;
+align-items: center;
+padding-right: 10%;
+}
+
+.miniimg{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+width: 300px;
+height: 100px;
+}
+.miniimg img{
+    width: 80px;
+}
+.lp-20_down > :nth-child(1){
+    width: 180px;
+position: absolute;
+left: 20%;
+bottom: 5%;
+}
+.lp-20_down > :nth-child(2){
+        width: 180px;
+position: absolute;
+left: 30%;
+bottom: 5%;
+}
+.lp-20_down > :nth-child(3){
+        width: 180px;
+position: absolute;
+left: 40%;
+bottom: 5%;
+}
+
+
+.lp-20_down div > :nth-child(1){
+    margin-bottom: 25px;
+}
+.lp-20_down div > :nth-child(2){
+    margin-bottom: 25px;
+}

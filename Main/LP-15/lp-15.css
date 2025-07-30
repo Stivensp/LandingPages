@@ -1,0 +1,112 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp-15_main{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: row;
+}
+
+.lp-15_left{
+width: 50%;
+height: 100%;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.lp-15_up{
+width: 80%;
+height: 60%;
+padding: 7%;
+padding-top: 18%;
+}
+
+.lp-15_up > :nth-child(1){
+    font-size: 74px;
+    margin-bottom: 25px;
+}
+.lp-15_up > :nth-child(2){
+    margin-bottom: 25px;
+}
+.lp-15_up > :nth-child(3){
+width: 150px;
+height: 55px;
+border-radius: 25px;
+font-size: 12px;
+background-color: #FFDE81;
+}
+
+
+.lp-15_down{
+margin-top: 25px;
+width: 70%;
+height: 160px;
+background-color: #49342F;
+color: white;
+border-radius: 25px;
+display: flex;
+flex-direction: row;
+padding: 2%;
+justify-content: center;
+align-items: center;
+}
+
+.lp-15_down div{
+    margin-left:8%;
+    width: 150px;
+    
+}
+.lp-15_down div >:nth-child(1){
+margin-bottom: 15px;
+}
+.lp-15_down div >:nth-child(2){
+display: block; 
+border-bottom: 2px solid rgb(255, 255, 255);
+width: 30%;
+margin-bottom: 15px;
+}
+
+.lp-15_right{
+width: 50%;
+height: 100%;
+object-fit: contain;
+}
+.lp-15_right  > img{
+height: 95%;
+margin-top: 7px;
+}

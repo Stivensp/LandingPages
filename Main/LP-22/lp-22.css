@@ -1,0 +1,116 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+body{
+    background-color: #090A0B;
+}
+
+
+.lp-22_main{
+    position: relative;
+width: 80%;
+margin-left: 10%;
+
+height: 1570px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.lp-22_main > img{
+width: 93.5%;
+position: absolute;
+top: 0px;
+}
+.lp-22_up{
+position: absolute;
+z-index: 1;
+width: 100%;
+height: 60%;
+top: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.lp-22_info{
+    padding: 3%;
+    padding-top: 6%;
+    gap: 15px;
+    text-align: center;
+width: 500px;
+height: 400px;
+color: white;
+gap: 15px;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.lp-22_info > :nth-child(1){
+font-size: 74px;
+margin-bottom: 25px;
+width: 550px;
+
+}
+.lp-22_info > :nth-child(2){
+margin-bottom: 25px;
+}
+.lp-22_info > :nth-child(3){
+width: 120px;
+height: 40px;
+background-color: white;
+color: black;
+font-size: 12px;
+border-radius: 25px;
+}
+
+
+.lp-22_down{
+position: absolute;
+z-index: 1;
+width: 100%;
+height: 40%;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+bottom: 0px;
+}
+.lp-22_down div{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

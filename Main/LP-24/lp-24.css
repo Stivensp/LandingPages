@@ -1,0 +1,132 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+body{
+    background-color: #040811;
+}
+.lp-24_main{
+position: relative;
+width: 80%;
+margin-left: 10%;
+height: 100vh;    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.lp-24_main img{
+    position: absolute;
+    height: 100%;
+    top: 0px;
+}
+.lp-24_up{
+    padding: 9%;
+    padding-top: 15%;
+    z-index: 1;
+width: 100%;
+height: 70%;
+position: absolute;
+top: 0px;
+display: flex;
+align-self:center;
+justify-content: center;
+flex-direction: column;
+}
+
+.lp-24_up > :nth-child(1){
+    font-size: 74px;
+    width: 400px;
+    color: white;
+
+}
+.lp-24_up > :nth-child(2){
+    width: 450px;
+    margin-top: 35px;
+        color: white;
+}
+.lp-24_up > :nth-child(3){
+    margin-top: 25px;
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #ffffff;
+align-self: flex-start;
+padding: 10px;
+}
+
+.lp-24_down{
+    position: absolute;
+width: 100%;
+height: 30%;
+
+flex-direction: row;
+display: flex;
+z-index: 1;
+align-items: center;
+justify-content: center;
+bottom: 0px;
+flex-direction: row;
+}
+
+.lp-24_citem{
+width: 90%;
+height: 80%;
+
+z-index: 1;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.lp-24_citem div{
+    width: 28%;
+    background-color: var(--c5);
+    border-radius: 25px;
+    backdrop-filter: 2px;
+    padding: 3%;
+    gap: 15px;
+    backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+border-radius: 25px;
+background: linear-gradient(70deg, #6464648f, #89898920);
+max-height: fit-content;
+}
+
+.lp-24_citem div >:nth-child(1){
+font-size: 27px;    
+color: white;
+}
+.lp-24_citem div >:nth-child(2){
+margin-top: 25px;
+color: white;
+}

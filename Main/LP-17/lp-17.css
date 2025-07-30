@@ -1,0 +1,173 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #09212B;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp-17_main{
+width: 80%;
+margin-left: 10%;
+height: 100vh;
+background-color: #09212B;
+position: relative;
+display: flex;
+flex-direction: column;
+}
+
+.lp-17_main > :nth-child(1){
+height: 100%;
+position: absolute;
+right: 0px;
+}
+
+
+.lp-17_cup{
+width: 80%;
+margin-left: 10%;
+height: 65%;
+
+position: absolute;
+display: flex;
+align-items: flex-end;
+}
+.lp-17_info{
+    padding: 5%;
+width: 650px;
+height: 75%;
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+border-radius: 25px;
+background: linear-gradient(70deg, #0000008f, #00000020);
+color: white;
+}
+.lp-17_info > :nth-child(1){
+    margin-bottom: 25px;
+}
+.lp-17_info > :nth-child(2){
+font-size: 54px;
+width: 420px;
+margin-bottom: 27px;
+}
+.lp-17_info > :nth-child(3){
+width: 400px;
+margin-bottom: 30px;
+}
+.lp-17_info > :nth-child(4){
+width: 120px;
+font-size: 12px;
+height: 45px;
+border-radius: 25px;
+color: black;
+background-color: #63E1E1;
+}
+
+
+.minidiv{
+display: flex;
+align-items: center;
+width: 80px;
+height: 15px;
+background-color: #38D9A9;
+}
+
+.minidiv  > :nth-child(1){
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+}
+.minidiv  > :nth-child(2){
+    width: 20%;
+    height: 100%;
+    background-color: #4DABF7;
+}
+.minidiv  > :nth-child(3){
+    width: 20%;
+    height: 100%;
+    background-color: green;
+}
+.minidiv  > :nth-child(4){
+    width: 20%;
+    height: 100%;
+    background-color: orange;
+}
+.minidiv  > :nth-child(5){
+    width: 20%;
+    height: 100%;
+    background-color: purple;
+}
+
+
+.lp-17_cdown{
+width: 100%;
+height: 40%;
+
+position: absolute;
+bottom: 0px;
+display: flex;
+align-items: flex-end;
+margin-bottom: 65px;
+justify-content: center;
+}
+.lp-17_bar{
+width: 80%;
+height: 45%;
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+border-radius: 25px;
+border: 2px solid rgba(255, 255, 255, 0.182);
+background: linear-gradient(70deg, #0000008f, #00000020);
+border-radius: 35px;
+padding: 1%;
+display: flex;
+align-items: center;
+color: white;
+justify-content: space-around;
+}
+
+.lp-17_bar div{
+width: 200px;
+}
+
+.lp-17_bar div > :nth-child(1){
+margin-bottom: 5px;
+}
+.lp-17_bar div > :nth-child(2){
+margin-bottom: 5px;
+}
+.lp-17_bar div > :nth-child(3){
+margin-bottom: 15px;
+}
+.lp-17_bar div > :nth-child(4){
+margin-bottom: 5px;
+}

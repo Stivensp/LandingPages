@@ -1,0 +1,137 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp-16_main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lp-16_left{
+width: 33%;
+height: 100%;
+position: relative;
+padding: 5%;
+}
+.lp-16_left > :nth-child(1){
+position: absolute;
+top: 18%;
+right: 0px;
+}
+.lp-16_left > :nth-child(2){
+    font-size: 72px;
+    margin-bottom: 25px;
+
+}
+.lp-16_left > :nth-child(3){
+     width: 370px;
+     font-size: 23px;  
+     margin-bottom: 45px; 
+
+}
+.lp-16_left > :nth-child(4){
+width: 125px;
+height: 45px;
+font-size: 12px;
+border-radius: 20px;
+background-color: #457D61;
+color: white;
+}
+.lp-16_left > :nth-child(5){
+position: absolute;
+ bottom: 75px;
+  right: 18%; 
+    
+}
+.lp-16_left > :nth-child(6){
+ position: absolute;
+ bottom: 25px;
+ left: 18%;   
+}
+
+
+.lp-16_middle{
+width: 33%;
+height: 100%;
+position: relative;
+}
+.lp-16_middle > :nth-child(1){
+position: absolute;
+top: 16%;
+right: 16%;
+}
+.lp-16_middle > :nth-child(2){
+position: absolute;
+top: 22%;
+right: 20%;
+}
+
+
+
+.lp-16_right{
+width: 33%;
+height: 100%;
+display: flex;
+padding: 3%;
+flex-direction: column;
+justify-content: flex-end;
+position: relative;
+}
+.lp-16_right > :nth-child(2){
+width: 200px;
+position: absolute;
+top: 10%;
+right: 20%;
+}
+.lp-16_right > :nth-child(1){
+position: absolute;
+top: 2%;
+left: 10%;
+}
+.lp-16_right > :nth-child(3){
+width: 80px;
+position: absolute;
+top: 40%;
+}
+.lp-16_right > :nth-child(4){
+font-size: 24px;
+width: 80%;
+}
+.lp-16_right > :nth-child(5){
+font-size: 74px;
+width: 100px;
+margin-top: 20px;
+}

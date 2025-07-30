@@ -1,0 +1,149 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.lp-21_main{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+
+.lp-21_up{
+width: 100%;
+height: 60%;
+display: flex;
+flex-direction: row;
+}
+
+.lp-21_left{
+width: 50%;
+height: 100%;
+
+padding: 3%;
+padding-left: 450px;
+padding-top: 100px;
+}
+
+.lp-21_left > :nth-child(1){
+    font-size: 55px;
+    width: 350px;
+    margin-bottom: 25px;
+}
+.lp-21_left > :nth-child(2){
+width: 300px;
+margin-bottom: 25px;
+}
+.lp-21_left > :nth-child(3){
+width: 120px;
+height: 42px;
+border-radius: 25px;
+background-color: #A36A4F;
+color: white;
+}
+
+.lp-21_right{
+width: 50%;
+height: 100%;
+position: relative;
+}
+.lp-21_right > :nth-child(1){
+    position: absolute;
+    left: 10%;
+    top: 2%;
+}
+
+.lp-21_right > :nth-child(2){
+    position: absolute;
+    left: 42%;
+    top: 40%;
+}
+
+
+
+.lp-21_down{
+width: 100%;
+height: 40%;
+background-color: #363032;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.lp-21_bar{
+width: 45%;
+height: 150px;
+background-color: #ECDAC4;
+border-radius: 65px;
+position: absolute;
+top: -20%;
+display: flex;
+align-items: center;
+flex-direction: row;
+padding: 3%;
+justify-content: space-around;
+}
+.lp-21_bar div{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+.lp-21_bar div >:nth-child(2){
+    font-size: 24px;
+}
+
+.lp-21_brownbar{
+margin-left: 5%;
+margin-right: 5%;
+    margin-top: 75px;
+width: 100%;
+height: fit-content;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.lp-21_brownbar div{
+    width: 10%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
