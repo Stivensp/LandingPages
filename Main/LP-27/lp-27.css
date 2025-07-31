@@ -1,0 +1,93 @@
+:root {
+    --c1: #FF6B6B;
+    --c2: #FFA94D;
+    --c3: #FFD43B;
+    --c4: #69DB7C;
+    --c5: #38D9A9;
+    --c6: #4DABF7;
+    --c7: #5C7CFA;
+    --c8: #9775FA;
+    --c9: #F783AC;
+    --f: #252525a8;
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: geo;
+}
+@font-face {
+    font-family: 'geo';
+    src: url('/Main/fonts/Geomanist-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+body{
+    background-color: white;
+}
+.lp-27_main{
+    width: 80%;
+    margin-left: 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.lp-27_main :nth-child(3){
+    height: 90%;
+    position: absolute;
+    right: 11%;
+}
+.lp-27_main :nth-child(1){
+    height: 100%;
+    position: absolute;
+
+}
+
+.lp-27_info{
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(120deg, #0000002a, #00000011);
+    position: absolute;
+    padding: 2%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.lp-27_info :nth-child(1){
+    font-size: 54px;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+}
+.lp-27_info :nth-child(2){
+top: 45%;
+position: absolute;
+font-size: 20px;
+width: 85%;
+}
+.lp-27_info :nth-child(3){
+width: 120px;
+background-color: #519BFD;
+height: 44px;
+position: absolute;
+border-radius: 25px;
+font-size: 14px;
+bottom: 20%;
+left: 5%;
+}
